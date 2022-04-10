@@ -39,7 +39,7 @@
         <p>ありがとうございました。送信を受け付けました。</p>
         <p>3営業日以内をめどにご返信いたしますので、しばらくお待ちください。</p>
         <h2 class="mt-4 pb-4 border-bottom">送信内容</h2>
-        <table class="table">
+        <table class= "table table-striped table-bordered">
           <tr><th>会社名</th><td><%= name = params["company"] %></td></tr>
           <tr><th>氏名</th><td><%= name = params["name"] %></td></tr>
           <tr><th>メール</th><td><%= name = params["mail"]%></td></tr>
@@ -48,7 +48,7 @@
         </table>
         <div class="text-center mb-4">
             <!-- 「戻る」ボタンを緑色にする設定を追加 -->
-            <a href="contact.html" class="btn btn-success">戻る</a>
+            <a href="/" class="btn btn-success">戻る</a>
         </div>
     </div>
     <footer class="text-center pt-3 border-top">
